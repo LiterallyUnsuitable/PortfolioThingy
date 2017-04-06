@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+} 
+
+.navigation {
+	text-align: center;
+}
+
+ul {
+  display: inline-block;n: 0;
+  padding: 0;
+}
+
+li {
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 5px 0px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+
+.header {
+  background-image: url(img/SiteHeader.png);
+  background-size: cover;
+  background-position: center top;
+  height: 500px;
+  width: 100%;
+}
+	
+
+h1 {
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 2px;
+ 
+}
+
+h2 {
+  border: 1px solid;
+  width: 200px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: black;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#Name {
+  margin: 0 auto;
+  top: 75%;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+}
+
+#PP {
+  border-radius: 100%;  
+  height: 130px;
+  width: 130px;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 80%;
+  display: block;
+  
+}
+
+.biography {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+	width: 700px;
+	
+}
+
+.portfolioSub {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+	width: 700px;
+}
+
+.portfolio1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: black;
+	margin: 5px;
+	width: 40%;
+	float: right;
+	border: 1px solid;
+	padding-bottom: 11.7em;
+	margin-right: 2%;
+}
+
+.portfolio2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: black;
+	margin: 5px;
+	width: 40%;
+	float: left;
+	padding-left: 10px;
+	border: 1px solid;
+}
+
+.PhotoPort1 {
+	height: 100%;
+	width: 18%;
+	color: gray;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	margin: 5px;
+}
+
+.PhotoPort2 {
+	height: 100%;
+	width: 18%;
+	color: gray;
+	display: inline-block;
+	overflow: hidden;
+	position: center;
+	margin: 5px;
+
+}	
+
+#PhotoPort2 {
+	padding-left: 50px;
+}
+
+	
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+	
